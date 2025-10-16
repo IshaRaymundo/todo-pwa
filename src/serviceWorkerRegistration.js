@@ -22,7 +22,7 @@ export function register(config) {
         checkValidServiceWorker(swUrl, config);
         navigator.serviceWorker.ready.then(() => {
           console.log(
-            'Esta app está usando un service worker en localhost.'
+            'Esta app está usando un service worker en localhost....'
           );
         });
       } else {
